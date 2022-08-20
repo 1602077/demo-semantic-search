@@ -1,0 +1,6 @@
+name: dd-embeddings-demo
+channels:
+  - conda-forge
+dependencies:
+  - sentence-transformers
+  - yaml

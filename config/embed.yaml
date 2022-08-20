@@ -1,0 +1,17 @@
+# embed.py global config and text variables for stdout
+text:
+  title: "Demo: Sentence Transformer Embeddings"
+  embedding:
+    title: "WHAT IS AN EMBEDDING?"
+    description: "An embedding is a numerical representation of an input word or sentence in a multi-dimensional feature space"
+  similarity:
+    title: "HOW ARE THEY USEFUL?"
+    description: "Embeddings can be compared by calculating the dot product between each sentences vector embeddings (cosine similarity). As the embedding encode encapsulate 'semantics', their comparison can be used to identify sentences of similar meaning"
+  semantic:
+    title: "SEMANTIC SEARCH"
+    description: "We can perform the same process in elasticsearch by writing the embeddings to the document entry along with the body and running a search by embedding vector instead."
+
+semanticQuery: "she is streaming the office"
+
+lineLim: 90
+tabWidth: 35
