@@ -1,10 +1,14 @@
 DEMO=embed.py
 
-.DEFAULT_GOAL=help
+.DEFAULT_GOAL=search
 
 .PHONY=demo
-demo: # runs demo script
+demo: # runs demo script with default search query
 	@cd src/ && python ${DEMO}
+
+.PHONY=search
+search: # runs demo script with specified search query
+	@cd src/ && python ${DEMO} --search "$(search_query)"
 
 .PHONY=env
 env: # builds conda virtual environment

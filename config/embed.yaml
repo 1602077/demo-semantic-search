@@ -11,7 +11,7 @@ text:
     title: "SEMANTIC SEARCH"
     description: "We can perform the same process in elasticsearch by writing the embeddings to the document entry along with the body and running a search by embedding vector instead."
 
-semanticQuery: "she is streaming the office"
+semanticQuery: "the dog is playing with the ball"
 
 lineLim: 90
 tabWidth: 35
